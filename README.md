@@ -15,10 +15,12 @@ npm i i18next react-i18next
 
 src 폴더안에 i18n 폴더를 생성한다.  
 
+![img](./폴더구조.png)
 
 그리고 i18n의 설정파일을 작성한다
 
 ```js
+//index.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './en.json'
